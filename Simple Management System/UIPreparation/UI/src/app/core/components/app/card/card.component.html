@@ -1,0 +1,35 @@
+<div class="background-wrapper">
+<div class="cart-container container py-5">
+  <h2 class="text-center mb-4">Sepetiniz</h2>
+  <div class="cart-items">
+    <!-- Benzersiz ürünleri göster -->
+    <div 
+      *ngFor="let product of products; let i = index" 
+      class="cart-item d-flex align-items-center justify-content-between mb-3"
+    >
+      <div class="product-image">
+        <img src="https://i.pinimg.com/originals/2f/f7/7d/2ff77d149b32f6ac6b6664f9181ca803.png" alt="Ürün Fotoğrafı" />
+      </div>
+      <div class="product-details flex-grow-1 px-3">
+        <h5 class="product-name mb-1">
+          {{ productNames[i] || 'Ürün adı yükleniyor...' }}
+        </h5>
+        <div class="product-quantity-controls d-flex align-items-center">
+          <button class="btn btn-secondary btn-sm" (click)="decreaseQuantity(product.productId)">-</button>
+          <p class="product-quantity text-center mx-3 my-0">{{ product.quantity }}</p>
+          <button class="btn btn-secondary btn-sm" (click)="increaseQuantity(product.productId)">+</button>
+        </div>
+      </div>
+      <!-- Silme butonu -->
+      <button 
+        class="btn btn-danger" 
+        (click)="deleteProduct(product.productId)">
+        <i class="fas fa-trash-alt"></i> Sil
+      </button>
+    </div>
+  </div>
+  <div class="text-center mt-4">
+    <button class="btn btn-primary btn-lg shadow-sm" (click)="orderProducts()">Sipariş Ver</button>
+  </div>
+</div>
+</div>

@@ -1,0 +1,46 @@
+<div class="background-wrapper">
+<!-- product.component.html -->
+<div class="container">
+  <div class="products-header m-0">
+    Stoktaki Ürünler
+    <span>Keşfedin!</span>
+  </div>
+
+  <!-- Arama kutusunu container içine ekliyoruz ve sağ üst köşeye yerleştiriyoruz -->
+  <div class="search-container mx-3">
+    <input 
+      type="text" 
+      [(ngModel)]="searchText" 
+      (input)="onSearchChange()" 
+      placeholder="Ürün ara..." 
+      class="search-input" />
+
+  </div>
+
+  <div class="sort-container d-flex justify-content-end mb-3">
+      <label for="sortBy"></label>
+      <select id="sortBy" [(ngModel)]="sortOption" (change)="onSortChange()">
+        <option value="asc">Artan (ID)</option>
+        <option value="desc">Azalan (ID)</option>
+      </select>
+  </div>
+
+  <div class="product-cards">
+    <div class="product-card" *ngFor="let product of filteredProducts">
+      <div class="card-header">
+        <img src="https://img.freepik.com/free-vector/white-product-podium-with-green-tropical-palm-leaves-golden-round-arch-green-wall_87521-3023.jpg" alt="Product Icon" class="product-icon" />
+      </div>
+      <div class="card-body">
+        <h3>{{ product.productName || 'Ürün Adı Yok' }}</h3>
+        <p>Ürün Id:  {{product.productId}}</p>
+        <p>Status: <span [class.available]="product.status" [class.not-available]="!product.status">
+          {{ product.status ? 'Aktif' : 'Pasif' }}</span></p>
+        <p>Renk: {{ product.colorId || 'Renk Seçili Değil' }}</p>
+        <p>Beden: {{ product.size || 'Beden Seçili Değil' }}</p>
+        <p *ngIf="product.isDeleted">Bu ürün silinmiş.</p>
+        <p>Adet : {{product.quantity}} </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

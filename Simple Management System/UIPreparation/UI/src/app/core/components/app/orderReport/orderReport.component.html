@@ -1,0 +1,38 @@
+<div class="background-wrapper">
+<div class="container">
+  <div class="orders-header">
+    Sipariş Raporu
+    <span>Detayları İnceleyin!</span>
+  </div>
+
+  <!-- Arama kutusunu container içine ekliyoruz ve sağ üst köşeye yerleştiriyoruz -->
+  <div class="search-container">
+    <input
+      type="text"
+      [(ngModel)]="searchText"
+      (input)="onSearchChange()"
+      placeholder="Sipariş ara..."
+      class="search-input"
+    />
+  </div>
+
+  <div class="order-cards">
+    <div class="order-card" *ngFor="let order of filteredOrders">
+      <div class="card-header">
+        <img
+          src="https://img.freepik.com/free-photo/shopping-cart-paper-bags_23-2148675065.jpg"
+          alt="Order Icon"
+          class="order-icon"
+        />
+      </div>
+      <div class="card-body">
+        <h3>Müşteri ID: {{ order.customerId || 'Bilinmiyor' }}</h3>
+        <p>Ürün ID: {{ order.productId || 'Bilinmiyor' }}</p>
+        <p>Adet: {{ order.quantity || 'Bilinmiyor' }}</p>
+        <p *ngIf="order.quantity === 0" class="no-quantity">Bu sipariş stok dışıdır.</p>
+        <p>Sipariş Durumu : {{order.orderStatus}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

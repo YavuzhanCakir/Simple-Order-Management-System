@@ -1,0 +1,66 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <!-- Anasayfa Butonu -->
+    <a class="navbar-brand" href="#">Anasayfa</a>
+
+    <!-- Navbar Toggler (Mobil için) -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Menüsü -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <!-- Admin Menüsü, yalnızca admin kullanıcıları için -->
+        <li class="nav-item dropdown" *ngIf="isAdmin">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Admin
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" [routerLink]="['/user']">User</a>
+            <a class="dropdown-item" [routerLink]="['/group']">Group</a>
+            <a class="dropdown-item" [routerLink]="['/operationclaim']">OperationClaim</a>
+            <a class="dropdown-item" [routerLink]="['/translate']">Translate</a>
+          </div>
+        </li>
+
+        <!-- Müşteri Temsilcisi Menüsü, sadece belirli kullanıcılar için -->
+        <li class="nav-item dropdown" *ngIf="isCustomerRepresentative">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Müşteri Temsilcisi
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" [routerLink]="['/customer']">Customer</a>
+            <a class="dropdown-item" [routerLink]="['/color']">Color</a>
+            <a class="dropdown-item" [routerLink]="['/depo']">Depo</a>
+            <a class="dropdown-item" [routerLink]="['/order']">Order</a>
+            <a class="dropdown-item" [routerLink]="['/product']">Product</a>
+            <a class="dropdown-item" [routerLink]="['/orderreport']">Sipariş Rapor</a>
+            <a class="dropdown-item" [routerLink]="['/tank']">Depo Kontrol</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Sepet Butonu (Sağda) -->
+
+    <!-- İlk a etiketi, sola hizalandı ve amblemi değiştirildi -->
+    <a class="btn btn-primary mr-3" [routerLink]="['/myorders']">
+      <span class="material-icons">shopping_bag</span>
+    </a>
+    
+    <!-- İkinci a etiketi, sağa yaslanmış ve soldan boşluk eklenmiş -->
+    <a class="btn btn-primary ms-auto ml-3" [routerLink]="['/card']">
+      <span class="material-icons">shopping_cart</span>
+    </a>
+
+
+    
+    
+    <span class="material-icons mx-3" title="Logout" (click)="logOut()">login</span>
+  </div>
+</nav>

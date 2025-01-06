@@ -1,0 +1,57 @@
+<div class="background-wrapper">
+  <div class="container py-5">
+    <header class="d-flex justify-content-between align-items-center mb-5">
+      <h2 class="page-title">Ürünlerimiz</h2>
+      <div class="filters">
+        <input
+          type="text"
+          class="form-control filter-input"
+          placeholder="🔍 Ürün ara..."
+        />
+        <select class="form-select sort-select">
+          <option value="low-to-high">Fiyat: Düşükten Yükseğe</option>
+          <option value="high-to-low">Fiyat: Yüksekten Düşüğe</option>
+        </select>
+      </div>
+    </header>
+    <div class="row g-5">
+      <div class="col-lg-4 col-md-6" *ngFor="let product of products">
+        <div class="card product-card">
+          <div class="product-image-wrapper">
+
+            <a [routerLink]="['/product', product.id]">
+              <div class="product-image-wrapper">
+                <img
+                  [src]="product.image || getImageForProduct(product.id)" 
+                  class="card-img-top product-image"
+                  alt="{{ product.name }}"
+                />
+                <div class="product-overlay">
+                  <button class="btn btn-light btn-outline-dark detail-btn">
+                    Detaylı İncele
+                  </button>
+                </div>
+              </div>
+            </a>
+
+            <div class="product-overlay">
+              <button 
+                class="btn btn-light btn-outline-dark detail-btn"
+                [routerLink]="['/product', product.id]"
+              >
+                Detaylı İncele
+              </button>
+            </div>
+          </div>
+          <div class="card-body text-center">
+            <h5 class="product-name">{{ product.name }}</h5>
+            <button class="btn btn-primary w-100 add-to-cart-btn">
+              <i class="fas fa-cart-plus"></i> Sepete Ekle
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>

@@ -1,0 +1,76 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+          <div class="card shadow-lg p-4">
+              <h2 class="text-center mb-4">User Registration</h2>
+              <form (ngSubmit)="register()">
+                  <!-- Full Name -->
+                  <div class="mb-3">
+                      <label for="fullName" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="fullName" placeholder="Enter your full name"
+                      [(ngModel)] = "registerUser.fullName">
+                  </div>
+
+                  <!-- Email -->
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                      [(ngModel)] = "registerUser.email">
+                  </div>
+
+                  <!-- Password -->
+                  <div class="mb-3">
+                      <label for="password" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="password" placeholder="Enter a secure password"
+                      [(ngModel)] = "registerUser.password">
+                  </div>
+
+                  <!-- Birth Date -->
+                  <!-- <div class="mb-3">
+                      <label for="birthDate" class="form-label">Birth Date</label>
+                      <input type="date" class="form-control" id="birthDate"
+                      [(ngModel)] = "registerUser.birthDate">
+                  </div>
+
+                  <!-- Mobile Phone -->
+                  <!-- <div class="mb-3">
+                      <label for="mobilePhone" class="form-label">Mobile Phone</label>
+                      <input type="tel" class="form-control" id="mobilePhone" placeholder="Enter your mobile number"
+                      [(ngModel)] = "registerUser.mobilePhones">
+                  </div> -->
+
+                  <!-- Gender -->
+                  <!-- <div class="mb-3">
+                      <label class="form-label">Gender</label>
+                      <select class="form-select" id="gender" [(ngModel)] = "registerUser.gender">
+                          <option value="">Select gender</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="other">Other</option>
+                      </select>
+                  </div> -->
+
+                  <!-- Language -->
+                  <!-- <div class="mb-3">
+                      <label for="language" class="form-label">Language</label>
+                      <input type="text" class="form-control" id="language" placeholder="Preferred language"
+                      [(ngModel)] = "registerUser.lang">
+                  </div> -->
+
+                  <!-- Address -->
+                  <!-- <div class="mb-3">
+                      <label for="address" class="form-label">Address</label>
+                      <textarea class="form-control" id="address" rows="2" placeholder="Enter your address"
+                      [(ngModel)] = "registerUser.address"
+                      ></textarea>
+                  </div> -->
+
+                  <!-- Submit Button -->
+                  <div class="d-grid gap-2">
+                      <button type="submit" class="btn btn-primary">Register</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>

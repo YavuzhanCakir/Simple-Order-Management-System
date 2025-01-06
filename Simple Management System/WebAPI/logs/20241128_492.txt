@@ -1,0 +1,1 @@
+2024-11-28 10:42:55.028 +03:00 [Information] {"FullName":null,"MethodName":"Handle","User":"Fatih","Parameters":[{"Name":"request","Value":{},"Type":"GetOrdersQuery"},{"Name":"cancellationToken","Value":{"IsCancellationRequested":false,"CanBeCanceled":false,"WaitHandle":{"Handle":{"value":3512},"SafeWaitHandle":{"IsInvalid":false,"IsClosed":false}},"Type":"CancellationToken"}]}

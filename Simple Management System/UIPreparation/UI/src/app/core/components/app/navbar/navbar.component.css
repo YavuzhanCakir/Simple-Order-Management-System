@@ -1,0 +1,29 @@
+/* Navbar'a margin ekleyelim */
+.navbar {
+
+  background-color: #7297ca !important; /* Arka plan rengini değiştirelim */
+}
+
+/* Sepet butonunu sağa yaslamak için */
+.ms-auto {
+  margin-left: auto; /* Bu özellik butonu sağa yaslar */
+}
+
+/* Dropdown menüsünün genişliğini kontrol etmek */
+.dropdown-menu {
+  width: 200px;
+}
+
+/* Navbar linklerinin hover rengi */
+.navbar-nav .nav-link:hover, .dropdown-item:hover {
+  background-color: #ddd;
+}
+
+a.btn:first-of-type {
+  margin-right: 20px !important; /* Bu değeri istediğiniz gibi değiştirebilirsiniz */
+}
+
+/* İkinci butona soldan boşluk ekleyelim */
+a.ms-auto {
+  margin-left: 20px !important; /* İkinci butonun soluna boşluk ekleyelim */
+}

@@ -1,0 +1,73 @@
+<div class="background-wrapper">
+  <div class="container py-5">
+    <div *ngIf="product; else loading">
+      <div class="row">
+        <!-- Ürün Fotoğrafı ve Detayları İçin Ortak Div -->
+        <div class="col-md-12 product-container">
+          <div class="row">
+            <!-- Sol Tarafta Ürün Resmi -->
+            <div class="col-md-6">
+              <div class="product-image-container">
+                <img [src]="staticImage" alt="{{ product.name }}" class="img-fluid" />
+              </div>
+            </div>
+
+            <!-- Sağ Tarafta Ürün Detayları -->
+            <div class="col-md-6">
+              <div class="product-details">
+                <div class="product-name mb-4">
+                  <h2>{{ product.name }}</h2>
+                </div>
+
+                <!-- Renk Seçimi Butonları -->
+                <!-- Renk Seçimi Butonları -->
+                <div class="mb-3 color-selection">
+                  <h5>Renk Seçin:</h5>
+                  <div class="btn-group">
+                    <button *ngFor="let color of colors" 
+                            [ngClass]="{'selected': selectedColor === color}" 
+                            class="btn color-btn"
+                            [style.backgroundColor]="color.code" 
+                            (click)="onColorSelect(color)">
+                      {{ color.name }}
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Beden Seçimi Butonları -->
+                <div class="mb-3 size-selection">
+                  <h5>Beden Seçin:</h5>
+                  <div class="btn-group">
+                    <button *ngFor="let size of sizes" 
+                            [ngClass]="{'selected': selectedSize === size.id}" 
+                            class="btn btn-outline-dark size-btn"
+                            (click)="onSizeSelect(size)">
+                      {{ size.name }}
+                    </button>
+                  </div>
+                </div>
+
+
+
+                <div class="mb-3 quantity-selection">
+                  <h5>Adet:</h5>
+                  <div class="input-group">
+                    <button class="btn btn-outline-secondary" (click)="decrementQuantity()">-</button>
+                    <input type="number" class="form-control text-center" [(ngModel)]="quantity" min="1" />
+                    <button class="btn btn-outline-secondary" (click)="incrementQuantity()">+</button>
+                  </div>
+                </div>
+
+                <button class="custom-btn" (click)="searchProduct(); addToCart()">Sepete Ekle</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #loading>
+      <p>Ürün yükleniyor...</p>
+    </ng-template>
+  </div>
+</div>

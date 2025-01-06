@@ -1,0 +1,71 @@
+.background-wrapper {
+  background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+  padding: 40px 0;
+  min-height: 100vh;
+}
+
+.cart-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-items {
+    max-height: 500px; /* Dikey kaydırma için maksimum yükseklik */
+    overflow-y: auto; /* Taşan içerik kaydırılabilir */
+  }
+  
+  .cart-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cart-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-details {
+    flex-grow: 1;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .product-quantity {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+  }
+  
+  button.btn-primary {
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  

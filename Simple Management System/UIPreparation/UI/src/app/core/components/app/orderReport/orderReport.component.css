@@ -1,0 +1,147 @@
+/* Sayfa düzeni */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    background-color: #f4f4f9;
+  }
+  
+  /* Sipariş kartları kapsayıcı */
+  .order-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+  }
+  
+  /* Kart tasarımı */
+  .order-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Kart başlığı ve icon */
+  .card-header {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .order-icon {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Kart içerik */
+  .card-body {
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    overflow: hidden; /* Eklenen satır */
+    text-overflow: ellipsis; /* Yazıyı taşırmamak için eklenebilir */
+}
+
+  
+  .card-body h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .card-body .no-quantity {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f44336;
+    padding: 8px 15px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Sipariş Başlığı için stil */
+  .orders-header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px;
+  }
+  
+  .orders-header:before {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background-color: #4caf50;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .orders-header span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #4caf50;
+    margin-left: 10px;
+    font-weight: 500;
+  }
+  
+  /* Arama Çubuğu */
+  .container {
+    position: relative;
+  }
+  
+  .search-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .search-input:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .background-wrapper {
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+    padding: 40px 0;
+    min-height: 100vh;
+  }

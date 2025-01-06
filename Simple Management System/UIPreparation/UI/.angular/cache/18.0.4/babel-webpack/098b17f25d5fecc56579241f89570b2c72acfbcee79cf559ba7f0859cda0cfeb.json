@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class RegisterUser {\n  constructor() {\n    this.lang = 'en'; // Varsayılan dil, ihtiyaç varsa değiştirilebilir\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

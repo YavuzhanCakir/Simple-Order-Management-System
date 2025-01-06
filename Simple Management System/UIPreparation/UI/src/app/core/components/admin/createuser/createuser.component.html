@@ -1,0 +1,105 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+          <div class="card shadow-lg rounded">
+              <div class="card-header bg-primary text-white text-center">
+                  <h4 class="mb-0">Kullanıcı Bilgileri Formu</h4>
+              </div>
+              <div class="card-body p-4">
+                  <form (ngSubmit)="createuser()">
+                      <!-- CitizenId -->
+                      <div class="mb-3">
+                          <label for="CitizenId" class="form-label">TC Kimlik No</label>
+                          <input type="text" class="form-control" id="CitizenId" placeholder="TC Kimlik No" required
+                          [(ngModel)]="createUser.CitizenId"
+                          >
+                      </div>
+
+                      <!-- FullName -->
+                      <div class="mb-3">
+                          <label for="FullName" class="form-label">Ad Soyad</label>
+                          <input type="text" class="form-control" id="FullName" placeholder="Adınız ve Soyadınız" required
+                          [(ngModel)]="createUser.FullName">
+                      </div>
+
+                      <!-- Email -->
+                      <div class="mb-3">
+                          <label for="Email" class="form-label">E-posta</label>
+                          <input type="email" class="form-control" id="Email" placeholder="E-posta adresinizi girin" required
+                          [(ngModel)]="createUser.Email">
+                      </div>
+
+                      <!-- MobilePhones -->
+                      <div class="mb-3">
+                          <label for="MobilePhones" class="form-label">Telefon Numarası</label>
+                          <input type="tel" class="form-control" id="MobilePhones" placeholder="Telefon numaranızı girin" required
+                          [(ngModel)]="createUser.MobilePhones">
+                      </div>
+
+                      <!-- Status -->
+                      <div class="mb-3">
+                        <input class="form-check-input" type="checkbox" id="Status" [(ngModel)]="createUser.Status">
+                        <label class="form-check-label" for="Status">Aktif mi?</label>
+                      </div>
+
+                      <!-- BirthDate -->
+                      <div class="mb-3">
+                          <label for="BirthDate" class="form-label">Doğum Tarihi</label>
+                          <input type="date" class="form-control" id="BirthDate" required
+                          [(ngModel)]="createUser.BirthDate">
+                      </div>
+
+                      <!-- Gender -->
+                      <div class="mb-3">
+                        <label for="Gender" class="form-label">Cinsiyet</label>
+                        <select class="form-control" id="Gender" [(ngModel)]="createUser.Gender" required>
+                          <option value="1">Erkek</option>
+                          <option value="0">Kadın</option>
+                        </select>
+                      </div>
+
+                      <!-- RecordDate -->
+                      <div class="mb-3">
+                          <label for="RecordDate" class="form-label">Kayıt Tarihi</label>
+                          <input type="date" class="form-control" id="RecordDate" required
+                          [(ngModel)]="createUser.RecordDate">
+                      </div>
+
+                      <!-- Address -->
+                      <div class="mb-3">
+                          <label for="Address" class="form-label">Adres</label>
+                          <textarea class="form-control" id="Address" rows="3" placeholder="Adresinizi girin"
+                          [(ngModel)]="createUser.Address"></textarea>
+                      </div>
+
+                      <!-- Notes -->
+                      <div class="mb-3">
+                          <label for="Notes" class="form-label">Notlar</label>
+                          <textarea class="form-control" id="Notes" rows="3" placeholder="Ek notlar"
+                          [(ngModel)]="createUser.Notes"></textarea>
+                      </div>
+
+                      <!-- UpdateContactDate -->
+                      <div class="mb-3">
+                          <label for="UpdateContactDate" class="form-label">İletişim Güncelleme Tarihi</label>
+                          <input type="date" class="form-control" id="UpdateContactDate"
+                          [(ngModel)]="createUser.UpdateContactDate">
+                      </div>
+
+                      <!-- Password -->
+                      <div class="mb-3">
+                          <label for="Password" class="form-label">Şifre</label>
+                          <input type="password" class="form-control" id="Password" placeholder="Şifrenizi girin" required
+                          [(ngModel)]="createUser.Password">
+                      </div>
+
+                      <!-- Submit Button -->
+                      <div class="d-grid">
+                          <button type="submit" class="btn btn-primary">Kaydet</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

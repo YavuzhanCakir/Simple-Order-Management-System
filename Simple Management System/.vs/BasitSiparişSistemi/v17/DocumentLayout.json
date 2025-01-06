@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C53AA410-60FE-445C-84F6-39770BBA0CEF}|Core\\Core.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53AA410-60FE-445C-84F6-39770BBA0CEF}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D08F3B-EAF5-4640-B364-85FBCACED47F}|DataAccess\\DataAccess.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\dataaccess\\concrete\\entityframework\\deporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D08F3B-EAF5-4640-B364-85FBCACED47F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\deporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8475AD65-62B4-4D76-9003-21E225244545}|Business\\Business.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\business\\handlers\\depoes\\queries\\getdepoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8475AD65-62B4-4D76-9003-21E225244545}|Business\\Business.csproj|solutionrelative:business\\handlers\\depoes\\queries\\getdepoquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D08F3B-EAF5-4640-B364-85FBCACED47F}|DataAccess\\DataAccess.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\dataaccess\\concrete\\entityframework\\translaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D08F3B-EAF5-4640-B364-85FBCACED47F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\translaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8475AD65-62B4-4D76-9003-21E225244545}|Business\\Business.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\business\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8475AD65-62B4-4D76-9003-21E225244545}|Business\\Business.csproj|solutionrelative:business\\configurationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24D08F3B-EAF5-4640-B364-85FBCACED47F}|DataAccess\\DataAccess.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\dataaccess\\concrete\\configurations\\userentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24D08F3B-EAF5-4640-B364-85FBCACED47F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\configurations\\userentityconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C53AA410-60FE-445C-84F6-39770BBA0CEF}|Core\\Core.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\core\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C53AA410-60FE-445C-84F6-39770BBA0CEF}|Core\\Core.csproj|solutionrelative:core\\entities\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E82EBA-82C8-4A35-B0FC-28D017E14F0A}|WebAPI\\WebAPI.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E82EBA-82C8-4A35-B0FC-28D017E14F0A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8475AD65-62B4-4D76-9003-21E225244545}|Business\\Business.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\business\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8475AD65-62B4-4D76-9003-21E225244545}|Business\\Business.csproj|solutionrelative:business\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E82EBA-82C8-4A35-B0FC-28D017E14F0A}|WebAPI\\WebAPI.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\webapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86E82EBA-82C8-4A35-B0FC-28D017E14F0A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E82EBA-82C8-4A35-B0FC-28D017E14F0A}|WebAPI\\WebAPI.csproj|c:\\users\\yavuz\\desktop\\devarchprojem\\webapi\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{86E82EBA-82C8-4A35-B0FC-28D017E14F0A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.staging.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetDepoQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Business\\Handlers\\Depoes\\Queries\\GetDepoQuery.cs",
+              "RelativeDocumentMoniker": "Business\\Handlers\\Depoes\\Queries\\GetDepoQuery.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Business\\Handlers\\Depoes\\Queries\\GetDepoQuery.cs",
+              "RelativeToolTip": "Business\\Handlers\\Depoes\\Queries\\GetDepoQuery.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:56:16.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\DataAccess\\Concrete\\EntityFramework\\DepoRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\DepoRepository.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\DataAccess\\Concrete\\EntityFramework\\DepoRepository.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\DepoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:54:51.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TranslateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\DataAccess\\Concrete\\EntityFramework\\TranslateRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\TranslateRepository.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\DataAccess\\Concrete\\EntityFramework\\TranslateRepository.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\TranslateRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:54:49.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAAAFcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:54:19.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigurationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Business\\ConfigurationManager.cs",
+              "RelativeDocumentMoniker": "Business\\ConfigurationManager.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Business\\ConfigurationManager.cs",
+              "RelativeToolTip": "Business\\ConfigurationManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:53:50.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Core\\Entities\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Core\\Entities\\Concrete\\User.cs",
+              "RelativeToolTip": "Core\\Entities\\Concrete\\User.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAnwBwAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:50:02.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserEntityConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\DataAccess\\Concrete\\Configurations\\UserEntityConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\Configurations\\UserEntityConfiguration.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\DataAccess\\Concrete\\Configurations\\UserEntityConfiguration.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\Configurations\\UserEntityConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:49:40.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\WebAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\WebAPI\\Startup.cs",
+              "RelativeToolTip": "WebAPI\\Startup.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAgwKwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:45:22.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Staging.json",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\WebAPI\\appsettings.Staging.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.Staging.json",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\WebAPI\\appsettings.Staging.json",
+              "RelativeToolTip": "WebAPI\\appsettings.Staging.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T17:43:29.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\WebAPI\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\WebAPI\\appsettings.Production.json",
+              "RelativeToolTip": "WebAPI\\appsettings.Production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T17:43:26.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Business\\Startup.cs",
+              "RelativeDocumentMoniker": "Business\\Startup.cs",
+              "ToolTip": "C:\\Users\\Yavuz\\Desktop\\DevArchProjem\\Business\\Startup.cs",
+              "RelativeToolTip": "Business\\Startup.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAkwFUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:41:23.879Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1498,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

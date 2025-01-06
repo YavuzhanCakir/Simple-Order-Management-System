@@ -1,0 +1,192 @@
+.background-wrapper {
+  background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+  padding: 40px 0;
+  min-height: 100vh;
+}
+
+
+/* Ana kart container */
+.product-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Resim bölgesi */
+.product-image-container {
+  flex: 1 1 50%;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-container img {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Detay bölgesi */
+.product-details {
+  flex: 1 1 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-name {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-container {
+  background-color: #f5f5f5; /* Açık gri arka plan rengi */
+  padding: 20px;
+  border-radius: 8px; /* Kenarları yuvarlatmak isteyebilirsiniz */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge ekleyebilirsiniz */
+}
+
+.color-selection h5,
+.size-selection h5 {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.color-selection .btn-group,
+.size-selection .btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.color-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.color-btn.selected {
+  border-color: #007bff;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.size-btn {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.size-btn.selected {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+/* Sepete ekle butonu */
+.btn-primary {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Responsive ayarlar */
+@media (max-width: 768px) {
+  .product-card {
+    flex-direction: column;
+  }
+
+  .product-image-container {
+    flex: none;
+    width: 100%;
+  }
+
+  .product-details {
+    flex: none;
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
+
+.quantity-selection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantity-selection .input-group {
+  width: 150px;
+}
+
+.quantity-selection .btn {
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.quantity-selection input {
+  font-size: 16px;
+  text-align: center;
+  border-radius: 0;
+  border: 1px solid #ddd;
+  width: 60px;
+}
+
+/* Seçilen renk butonunun arka planını mavi yap */
+/* Seçilen renk butonunun arka planını mavi yap */
+.color-selection .btn.selected,
+.size-selection .btn.selected {
+  background-color: #007bff; /* Seçilen butonun arka plan rengi */
+  color: white; /* Yazı rengini beyaz yap */
+  border-color: #007bff; /* Kenar rengi */
+}
+
+/* Hover durumunda arka plan rengini değiştir */
+.color-selection .btn:hover,
+.size-selection .btn:hover {
+  background-color: #f8f9fa; /* Hoverda açık renk */
+  border-color: #0056b3; /* Hoverda kenar rengi */
+}
+
+.custom-btn {
+  background-color: #7ab4f8c8; /* Butonun arka plan rengini kırmızımsı turuncu yapar */
+  color: white; /* Buton metninin rengini beyaz yapar */
+  padding: 10px 20px; /* Butona iç boşluk ekler */
+  border: none; /* Kenarlıkları kaldırır */
+  border-radius: 5px; /* Butonun köşelerini yuvarlatır */
+  font-size: 16px; /* Yazı boyutunu ayarlar */
+  cursor: pointer; /* Fare ikonu buton üzerinde değişir */
+  transition: background-color 0.3s; /* Hover efekti için geçiş ekler */
+}
+
+
